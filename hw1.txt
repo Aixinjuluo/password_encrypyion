@@ -1,0 +1,229 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh14640\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 cript started on 2019-01-25 00:55:50-05:00\
+]0;root@kali: ~/glhw1[01;31mroot@kali[00m:[01;34m~/glhw1[00m# login [K[K[K[K[K[Ksudo[K[K -zack\
+su: invalid option -- 'z'\
+Try 'su --help' for more information.\
+]0;root@kali: ~/glhw1[01;31mroot@kali[00m:[01;34m~/glhw1[00m# sudo su - zack\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ grep sudo /etc/group\
+sudo:x:27:zack\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ cd /\
+]0;zack@kali: /[01;31mzack@kali[00m:[01;34m/[00m$ ls\
+0     [0m[01;34mdev[0m   [01;36minitrd.img[0m      [01;36mlib32[0m   [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msys[0m  [01;34mvar[0m\
+[01;36mbin[0m   [01;34metc[0m   [01;36minitrd.img.old[0m  [01;36mlib64[0m   [01;34mmedia[0m       [01;34mproc[0m  [01;36msbin[0m  [30;42mtmp[0m  [01;36mvmlinuz[0m\
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib[0m             [01;36mlibx32[0m  [01;34mmnt[0m         [01;34mroot[0m  [01;34msrv[0m   [01;34musr[0m  [01;36mvmlinuz.old[0m\
+]0;zack@kali: /[01;31mzack@kali[00m:[01;34m/[00m$ cd etc\
+]0;zack@kali: /etc[01;31mzack@kali[00m:[01;34m/etc[00m$ cd ..\
+]0;zack@kali: /[01;31mzack@kali[00m:[01;34m/[00m$ cd .\
+]0;zack@kali: /[01;31mzack@kali[00m:[01;34m/[00m$ cd ~\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ pwd\
+/home/zack\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ ls\
+[0m[01;34mhw1[0m  hw1.txt  Hw1.txt\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ ls -a\
+[0m[01;34m.[0m   .bash_history  .bashrc           [01;34m.cache[0m  hw1.txt  [01;34m.mozilla[0m\
+[01;34m..[0m  .bash_logout   .bashrc.original  [01;34mhw1[0m     Hw1.txt  .profile\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ cd /\
+]0;zack@kali: /[01;31mzack@kali[00m:[01;34m/[00m$ ls\
+0     [0m[01;34mdev[0m   [01;36minitrd.img[0m      [01;36mlib32[0m   [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msys[0m  [01;34mvar[0m\
+[01;36mbin[0m   [01;34metc[0m   [01;36minitrd.img.old[0m  [01;36mlib64[0m   [01;34mmedia[0m       [01;34mproc[0m  [01;36msbin[0m  [30;42mtmp[0m  [01;36mvmlinuz[0m\
+[01;34mboot[0m  [01;34mhome[0m  [01;36mlib[0m             [01;36mlibx32[0m  [01;34mmnt[0m         [01;34mroot[0m  [01;34msrv[0m   [01;34musr[0m  [01;36mvmlinuz.old[0m\
+]0;zack@kali: /[01;31mzack@kali[00m:[01;34m/[00m$ ls -F\
+0      [0m[01;34mdev[0m/   [01;36minitrd.img[0m@      [01;36mlib32[0m@   [01;34mlost+found[0m/  [01;34mopt[0m/   [01;34mrun[0m/   [01;34msys[0m/  [01;34mvar[0m/\
+[01;36mbin[0m@   [01;34metc[0m/   [01;36minitrd.img.old[0m@  [01;36mlib64[0m@   [01;34mmedia[0m/       [01;34mproc[0m/  [01;36msbin[0m@  [30;42mtmp[0m/  [01;36mvmlinuz[0m@\
+[01;34mboot[0m/  [01;34mhome[0m/  [01;36mlib[0m@             [01;36mlibx32[0m@  [01;34mmnt[0m/         [01;34mroot[0m/  [01;34msrv[0m/   [01;34musr[0m/  [01;36mvmlinuz.old[0m@\
+]0;zack@kali: /[01;31mzack@kali[00m:[01;34m/[00m$ cd ~\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ mkdir hw1\
+mkdir: cannot create directory \'91hw1\'92: File exists\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ mkdir h[KHW1\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ cd HW1/\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ echo ""c"a"t" "a" "t"o"n" "i"c"[C > foo.txt\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ cp footxt[K[K[K.txt f[Kbar.txt\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ ls\
+bar.txt  foo.txt\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ s[Kmkdir hw1q\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ cd[Kp foo.txt bar.txt hw1q\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ ls\
+bar.txt  foo.txt  [0m[01;34mhw1q[0m\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ cd hw1q/\
+]0;zack@kali: ~/HW1/hw1q[01;31mzack@kali[00m:[01;34m~/HW1/hw1q[00m$ ls\
+bar.txt  foo.txt\
+]0;zack@kali: ~/HW1/hw1q[01;31mzack@kali[00m:[01;34m~/HW1/hw1q[00m$ cd ..\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ rmbar[K[K[K bar.txt\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ ls\
+foo.txt  [0m[01;34mhw1q[0m\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ cd hw1q/\
+]0;zack@kali: ~/HW1/hw1q[01;31mzack@kali[00m:[01;34m~/HW1/hw1q[00m$ mv bar.txt HW1[K[K[K[K /home/zacl[Kk/HW1\
+]0;zack@kali: ~/HW1/hw1q[01;31mzack@kali[00m:[01;34m~/HW1/hw1q[00m$ ls\
+foo.txt\
+]0;zack@kali: ~/HW1/hw1q[01;31mzack@kali[00m:[01;34m~/HW1/hw1q[00m$ cd ..\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ ls\
+bar.txt  foo.txt  [0m[01;34mhw1q[0m\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ re[Km -r hw1q\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ ls\
+bar.txt  foo.txt\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ cat foot[K.txt\
+cat a ton ic\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ ca[K[Kcat /etc/passwd\
+root:x:0:0:root:/root:/bin/bash\
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\
+bin:x:2:2:bin:/bin:/usr/sbin/nologin\
+sys:x:3:3:sys:/dev:/usr/sbin/nologin\
+sync:x:4:65534:sync:/bin:/bin/sync\
+games:x:5:60:games:/usr/games:/usr/sbin/nologin\
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin\
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin\
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin\
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin\
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin\
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin\
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin\
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin\
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin\
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin\
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin\
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin\
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin\
+systemd-timesync:x:101:102:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin\
+systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin\
+systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin\
+mysql:x:104:109:MySQL Server,,,:/nonexistent:/bin/false\
+Debian-exim:x:105:110::/var/spool/exim4:/usr/sbin/nologin\
+uuidd:x:106:112::/run/uuidd:/usr/sbin/nologin\
+rwhod:x:107:65534::/var/spool/rwho:/usr/sbin/nologin\
+redsocks:x:108:113::/var/run/redsocks:/usr/sbin/nologin\
+usbmux:x:109:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin\
+miredo:x:110:65534::/var/run/miredo:/usr/sbin/nologin\
+ntp:x:111:114::/nonexistent:/usr/sbin/nologin\
+postgres:x:112:116:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash\
+dnsmasq:x:113:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin\
+messagebus:x:114:117::/nonexistent:/usr/sbin/nologin\
+iodine:x:115:65534::/var/run/iodine:/usr/sbin/nologin\
+arpwatch:x:116:119:ARP Watcher,,,:/var/lib/arpwatch:/bin/sh\
+Debian-snmp:x:117:122::/var/lib/snmp:/bin/false\
+stunnel4:x:118:123::/var/run/stunnel4:/usr/sbin/nologin\
+rtkit:x:119:124:RealtimeKit,,,:/proc:/usr/sbin/nologin\
+sslh:x:120:126::/nonexistent:/usr/sbin/nologin\
+inetsim:x:121:128::/var/lib/inetsim:/usr/sbin/nologin\
+sshd:x:122:65534::/run/sshd:/usr/sbin/nologin\
+speech-dispatcher:x:123:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false\
+gluster:x:124:131::/var/lib/glusterd:/usr/sbin/nologin\
+geoclue:x:125:133::/var/lib/geoclue:/usr/sbin/nologin\
+colord:x:126:134:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin\
+saned:x:127:135::/var/lib/saned:/usr/sbin/nologin\
+avahi:x:128:136:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin\
+pulse:x:129:137:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin\
+dradis:x:130:139::/var/lib/dradis:/usr/sbin/nologin\
+king-phisher:x:131:140::/var/lib/king-phisher:/usr/sbin/nologin\
+beef-xss:x:132:141::/var/lib/beef-xss:/usr/sbin/nologin\
+Debian-gdm:x:133:142:Gnome Display Manager:/var/lib/gdm3:/bin/false\
+systemd-coredump:x:998:998:systemd Core Dumper:/:/sbin/nologin\
+zack:x:1000:1000:Zack Wu,603,5138353868,:/home/zack:/bin/bash\
+wu:x:1001:1001:Tiezheng Wu,001,1234567890,0987654321:/home/wu:/bin/bash\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ less /etc/passwd\
+[?1049h[22;0;0t[?1h=\
+root:x:0:0:root:/root:/bin/bash\
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\
+bin:x:2:2:bin:/bin:/usr/sbin/nologin\
+sys:x:3:3:sys:/dev:/usr/sbin/nologin\
+sync:x:4:65534:sync:/bin:/bin/sync\
+games:x:5:60:games:/usr/games:/usr/sbin/nologin\
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin\
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin\
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin\
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin\
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin\
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin\
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin\
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin\
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin\
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin\
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin\
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin\
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin\
+systemd-timesync:x:101:102:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin\
+systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin\
+systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin\
+mysql:x:104:109:MySQL Server,,,:/nonexistent:/bin/false\
+Debian-exim:x:105:110::/var/spool/exim4:/usr/sbin/nologin\
+uuidd:x:106:112::/run/uuidd:/usr/sbin/nologin\
+rwhod:x:107:65534::/var/spool/rwho:/usr/sbin/nologin\
+redsocks:x:108:113::/var/run/redsocks:/usr/sbin/nologin\
+usbmux:x:109:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin\
+miredo:x:110:65534::/var/run/miredo:/usr/sbin/nologin\
+ntp:x:111:114::/nonexistent:/usr/sbin/nologin\
+postgres:x:112:116:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash\
+dnsmasq:x:113:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin\
+messagebus:x:114:117::/nonexistent:/usr/sbin/nologin\
+iodine:x:115:65534::/var/run/iodine:/usr/sbin/nologin\
+arpwatch:x:116:119:ARP Watcher,,,:/var/lib/arpwatch:/bin/sh\
+[7m/etc/passwd[27m[K\
+[K:[K\
+[K\
+[K:[K\
+[K[?1l>[?1049l[23;0;0t]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ firefox\
+Error: no DISPLAY environment variable specified\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ sodu[K[K[Kudo su - zac[K[K[Kroot\
+[sudo] password for zack: \
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# firefox\
+Error: no DISPLAY environment variable specified\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# su [K[K[Kpwd\
+/root\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# firefox\
+Error: no DISPLAY environment variable specified\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# su - wu\
+]0;wu@kali: ~[01;31mwu@kali[00m:[01;34m~[00m$ firefox\
+Error: no DISPLAY environment variable specified\
+]0;wu@kali: ~[01;31mwu@kali[00m:[01;34m~[00m$ fi[K[Kfire [K[K[K[K[Kfire [Kfo[K[K[K[K[K[Klogout\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# firefox\
+Error: no DISPLAY environment variable specified\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# firefox\
+Error: no DISPLAY environment variable specified\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# firefox\
+Error: no DISPLAY environment variable specified\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# cd l[Kglhw1/\
+]0;root@kali: ~/glhw1[01;31mroot@kali[00m:[01;34m~/glhw1[00m# ls\
+[0m[01;34mglhw1a[0m  hw1.txt  test1.txt\
+]0;root@kali: ~/glhw1[01;31mroot@kali[00m:[01;34m~/glhw1[00m# cat test1.txt \
+schrodinger's cake is sometimes a lie\
+]0;root@kali: ~/glhw1[01;31mroot@kali[00m:[01;34m~/glhw1[00m# cd ..\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# log[K[K[Ksudo su - zack\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ cd gl[K[K[K[K[Kls\
+[0m[01;34mhw1[0m  [01;34mHW1[0m  hw1.txt  Hw1.txt\
+]0;zack@kali: ~[01;31mzack@kali[00m:[01;34m~[00m$ rm[K[Klogout\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# logout\
+]0;zack@kali: ~/HW1[01;31mzack@kali[00m:[01;34m~/HW1[00m$ logout\
+]0;root@kali: ~/glhw1[01;31mroot@kali[00m:[01;34m~/glhw1[00m# exit\
+\
+Script done on 2019-01-25 11:34:40-05:00\
+\
+\
+\
+Script started on 2019-01-24 20:02:14-05:00\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# firefox\
+d s\
+\
+^Z\
+[1]+  Stopped                 firefox\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# bg\
+[1]+ firefox &\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# bg\
+bash: bg: job 1 already in background\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# firefox &\
+[2] 4500\
+[1]   Done                    firefox\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# pwd\
+/root\
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# exit\
+\
+Script done on 2019-01-24 23:58:23-05:00\
+\
+\
+\
+\
+}

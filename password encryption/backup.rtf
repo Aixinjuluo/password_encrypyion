@@ -1,0 +1,130 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  \
+  import hashlib\
+\
+with open ("digit.txt", "w") as w:\
+    for i in range(1000000):\
+        x = str(i)\
+        text1 = x.zfill(6)\
+        PassW = hashlib.sha256(text1.encode('utf-8')).hexdigest()\
+        w.write("\{\}:\{\}".format(PassW,text1))\
+        w.write("\\n")\
+    for i1 in range(100000):\
+        x = str(i1)\
+        text2 = x.zfill(5)\
+        PassW = hashlib.sha256(text2.encode('utf-8')).hexdigest()\
+        w.write("\{\}:\{\}".format(PassW,text2))\
+        w.write("\\n")\
+    for i2 in range(1000):\
+        x = str(i2)\
+        text3 = x.zfill(3)\
+        PassW = hashlib.sha256(text3.encode('utf-8')).hexdigest()\
+        w.write("\{\}:\{\}".format(PassW,text3))\
+        w.write("\\n")\
+    for f in range(10000):\
+        n = str(f)\
+        text4 = n.zfill(4)\
+        for Mark in ["*", "~", "!", "#"]:\
+            W = Mark + text4\
+            PassW = hashlib.sha256(W.encode('utf-8')).hexdigest()\
+            w.write("\{\}:\{\}".format(PassW,W))\
+            w.write("\\n")\
+    for i3 in range(100):\
+        x = str(i3)\
+        text5 = x.zfill(2)\
+        PassW = hashlib.sha256(text5.encode('utf-8')).hexdigest()\
+        w.write("\{\}:\{\}".format(PassW,text5))\
+        w.write("\\n")\
+    for i4 in range(10):\
+        x = str(i4)\
+        text6 = x.zfill(2)\
+        PassW = hashlib.sha256(text6.encode('utf-8')).hexdigest()\
+        w.write("\{\}:\{\}".format(PassW,text6))\
+        w.write("\\n")\
+        \
+\
+with open("words.txt", "r") as f, open("test.txt", "w") as w:\
+    f_content = f.read().splitlines()\
+\
+    for line1 in f_content:\
+    \
+        if (len(line1) == 7 ):\
+            line2 = line1.capitalize()\
+            for Num in range(0,10):\
+                i = str(Num)\
+                line3 = line2 + i\
+                #print(line1, end = i)\
+                #print (" ")\
+                m = hashlib.sha256(line3.encode('utf-8')).hexdigest()\
+                #print(m)\
+                w.write("\{\}:\{\}".format(m,line3))\
+                w.write("\\n")\
+\
+        if (len(line1) == 5):\
+            R=line1.replace("a", "@").replace("l", "1")\
+            #print(R)\
+            m = hashlib.sha256(R.encode('utf-8')).hexdigest()\
+            #print(m)\
+                \
+            w.write("\{\}:\{\}".format(m, R))\
+            w.write("\\n")\
+        else:\
+             #print(line)\
+             d = hashlib.sha256(line1.encode('utf-8')).hexdigest()\
+             #print(d)\
+             w.write("\{\}:\{\}".format(d,line1))\
+             w.write("\\n")\
+\
+with open("password.txt", "r") as j, open ("input.txt", "w") as u:\
+    j_content = j.read().splitlines()\
+    for line5 in j_content:\
+        au = line5.split(":")\
+        u.write(au[1])\
+        u.write("\\n")\
+\
+\
+with open ("input.txt", "r") as v, open ("test.txt", "r") as l, open ("digit.txt", "r") as l1,\\\
+     open ("dound.txt", "w") as s:\
+     v_content = v.read().splitlines()\
+     l_content = l.read().splitlines()\
+     l1_content = l1.read().splitlines()\
+     for line6 in v_content:\
+        for line7 in l_content:\
+             if line6 in line7:\
+                 s.write(line6)\
+                 s.write("\\n")\
+     for line8 in v_content:\
+         for line9 in l1_content:\
+             if line8 in line9:\
+                 s.write(line8)\
+                 s.write("\\n")\
+\
+         \
+with open ("test.txt", "r") as p, open ("dound.txt", "r") as s:\
+    p_content = p.read().splitlines()\
+    s_content = s.read().splitlines()\
+    for line8 in s_content:\
+        for line9 in p_content:\
+            if line8 in line9:\
+                print("password: "+line9[65:])\
+\
+\
+with open ("digit.txt", "r") as p1, open ("dound.txt", "r") as s1:\
+    p1_content = p1.read().splitlines()\
+    s1_content = s1.read().splitlines()\
+    for line10 in s1_content:\
+        for line11 in p1_content:\
+            if line10 in line11:\
+                print("password: "+line11[65:])\
+\
+\
+\
+\
+\
+}
